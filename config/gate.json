@@ -1,0 +1,18 @@
+{
+  "development":{
+    "host": "127.0.0.1",
+    "port": "3014"
+  },
+  "realdevelopment":{
+    "host": "d-gs.inlive7.com",
+    "port": "3014"
+  },
+  "QA":{
+    "host": "q-gs01.inlive7.com",
+    "port": "3014"
+  },
+  "onlineAC":{
+    "host": "35.194.147.68",
+    "port": "3014"
+  }
+}

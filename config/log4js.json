@@ -1,0 +1,63 @@
+{
+  "appenders": [
+    {
+      "type": "console",
+      "category":
+      [
+        "console",
+        "bbc",
+        "bbc-error",
+        "bc",
+        "bc-error"
+      ]
+    },
+    {
+      "type": "file",
+      "filename": "./logs/bbc.log",
+      "maxLogSize": 10485760,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "bbc"
+    },
+    {
+      "type": "file",
+      "filename": "./logs/bbc.log",
+      "maxLogSize": 10485760,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "bbc-error"
+    },
+    {
+      "type": "file",
+      "filename": "./logs/bc.log",
+      "maxLogSize": 10485760,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "bc"
+    },
+    {
+      "type": "file",
+      "filename": "./logs/bc.log",
+      "maxLogSize": 10485760,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "bc-error"
+    }
+  ],
+  "levels": {
+    "bbc": "DEBUG",
+    "bbc-error": "DEBUG",
+    "bc": "DEBUG",
+    "bc-error": "DEBUG"
+  },
+  "replaceConsole": true,
+  "lineDebug": false
+}

@@ -1,0 +1,6 @@
+{
+  "development":"http://d-api.inlive7.com/elibomApi/LGLiveAPI/API/M/User/Login",
+  "realdevelopment":"http://d-api.inlive7.com/elibomApi/LGLiveAPI/API/M/User/Login",
+  "QA":"http://q-api.inlive7.com/elibomApi/LGLiveAPI/API/M/User/Login",
+  "onlineAC":"http://gapi.inlivewebservice.com/elibomApi/LGLiveAPI/API/M/User/Login"
+}
